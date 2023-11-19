@@ -1,0 +1,79 @@
+.section_city {
+    margin-bottom: 30px;
+
+    .city_container {
+        display: flex;
+        flex-direction: column;
+
+
+        .city_header {
+            display: contents;
+            width: 30px;
+
+            .title_component {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                margin-left: 5px;
+
+            }
+
+            .content_component {
+                font-size: 16px;
+                color: #6b6b6b;
+                padding-bottom: 5px;
+                font-weight: 400;
+                line-height: 24px;
+                margin: 8px 0px;
+                margin-left: 5px;
+
+
+            }
+
+        }
+
+    }
+
+    .img_customize {
+        height: 170px !important;
+        width: auto !important;
+        cursor: pointer;
+    }
+
+    .title_img {
+        padding-top: 5px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .img_city {
+        display: block;
+        width: 175px;
+        height: 140px;
+        border-radius: 3px;
+        background-repeat: round;
+
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+        // border: 1px solid;
+
+        &:hover {
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+    }
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #6b6b6b !important;
+}
+
+.slick-list {
+    margin: 5px !important;
+}

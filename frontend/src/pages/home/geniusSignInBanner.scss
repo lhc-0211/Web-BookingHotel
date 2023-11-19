@@ -1,0 +1,41 @@
+.section_geniusSignInBanner {
+    .geniusSignInBanner_container {
+        margin-block-end: 16px;
+
+        .detail_geniusSignInBanner {
+            grid-column-gap: 16px;
+            align-items: stretch;
+            background: url(../../assets/images/world-map.7d457a5d.png) 100% 0 no-repeat;
+            display: grid;
+            grid-template-areas:
+                "image text"
+                "image buttons";
+            grid-template-columns: 160px auto;
+            grid-template-rows: 2fr auto;
+            justify-items: stretch;
+            padding: 18px;
+            border: 1px solid;
+            border-radius: 8px;
+            border-color: #e7e7e7;
+
+            .img_GlobeGeniusBadge {
+                display: block;
+                grid-area: image;
+                height: 160px;
+                margin: 0 0 -14px;
+                width: 160px;
+
+                .img_GlobeGeniusBadge_custom {
+                    display: block;
+                    height: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+
+}

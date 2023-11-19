@@ -1,0 +1,205 @@
+.section_detailHotel {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 15px 32px 12px;
+    color: #262626;
+
+    .left_wrapper {
+
+        .map {
+            width: 100%;
+
+            iframe {
+                width: 100%;
+            }
+        }
+
+        .searchbox-layout-vertical {
+            border-radius: 2px;
+            color: #262626;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            padding: 16px;
+            background-color: #febb02;
+
+            .form_children {
+                margin-bottom: 12px;
+
+                .content {
+                    font-weight: 500;
+                    margin-bottom: -4px;
+                    font-size: 20px;
+                    line-height: 28px;
+
+                }
+
+                button.btn_custom.btn.btn-primary {
+                    width: 100%;
+                    padding: 12px;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+    }
+
+    .right_wrapper {
+        padding-left: 15px;
+
+        .wrap-hotelpage-top {
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .title_name_hotel {
+                padding: 0;
+                font-size: 24px;
+                line-height: 32px;
+                font-weight: 700;
+            }
+
+            .ri-heart-line,
+            .ri-share-line {
+                color: #0071c2;
+                font-size: 26px;
+                padding: 0 10px;
+
+            }
+        }
+
+    }
+
+    .detail_wrapper {
+        height: 400px;
+        gap: 10px;
+        margin-bottom: 40px;
+
+        .detail_wrapper--description {
+            width: 70%;
+
+            .detail_wrapper--description-title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+        }
+
+        .detail_wrapper--service {
+            width: 30%;
+            background-color: #e4f4ff;
+            padding: 16px;
+            border-radius: 2px;
+
+            .bui-f-font-heading {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: .67em;
+            }
+
+            .ph-section {
+                margin-bottom: .50em;
+
+                .ph-content {
+                    gap: 8px;
+
+                    &:first-child {
+                        font-weight: bold;
+                        padding: 0 0 5px 0;
+                        margin: 0;
+                        font-size: 14px !important;
+                    }
+
+                    font-size: 13px;
+
+                    i {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .section_list_room {
+        .section_list_room--title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        thead {
+            tr {
+                &:first-child {
+                    background-color: #033580;
+
+                    th {
+                        font-weight: bold;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        th,
+        td {
+            border: 1px solid #5bbaff;
+            text-align: left;
+            padding: 8px;
+            color: #262626;
+        }
+    }
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: #262626;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    background: white;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8px 14px;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    // top: -7px !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8px 14px !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    left: -6px !important;
+    top: 7px !important;
+    font-size: 1.1rem !important;
+    color: #262626 !important;
+}
+
+.css-4jnixx-MuiStack-root {
+    overflow: inherit !important;
+}
+
+.css-1nmdiq5-menu {
+    z-index: 99 !important;
+}
+
+li {
+    padding: 0px !important;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

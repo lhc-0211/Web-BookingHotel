@@ -1,0 +1,118 @@
+.section_bhawarenessBanner {
+    margin-bottom: 20px;
+
+    .bhawarenessBanner_container {
+
+        display: flex;
+        justify-content: flex-end;
+        min-height: 230px;
+        overflow: hidden;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+        background: none;
+        border: 1px solid;
+        border-radius: 8px;
+        border-color: #e7e7e7;
+        box-sizing: border-box;
+        font-size: inherit;
+        position: relative;
+        vertical-align: top;
+
+        .first_bhawarenessBanner {
+            background-color: #ffb700;
+            border-radius: 50%;
+            bottom: 40px;
+            height: 64px;
+            left: -20px;
+            position: absolute;
+            width: 64px;
+        }
+
+        .second_bhawarenessBanner {
+            background-color: #006ce4;
+            border-radius: 50%;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: -100px 70px -100px 0px;
+            min-width: 500px;
+            padding-left: 10%;
+            position: relative;
+
+            .second_bhawarenessBanne_content {
+                padding: 0;
+                text-align: left !important;
+                width: 80%;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+
+                .title_animation {
+                    position: relative;
+                    transition: transform 0.5s ease-in-out;
+                    display: inline-block;
+                    overflow: hidden;
+                    text-decoration: underline;
+                    text-decoration-color: #FFB703;
+                    margin: 0 0 0 6px;
+                    transform: translateY(-10%);
+                    visibility: hidden;
+                }
+
+                .title_animation.active {
+                    transform: translateY(20%);
+                    // position: relative;
+                    // animation: moveDown 0.5s ease-in-out forwards;
+                    visibility: visible !important;
+                }
+
+                // @keyframes moveDown {
+                //     0% {
+                //         transform: translateY(-50%);
+                //     }
+
+                //     100% {
+                //         transform: translateY(20%);
+                //         display: none;
+
+                //     }
+                // }
+            }
+
+            .second_bhawarenessBanne_btn {
+                margin: 16px 64px 0 0;
+                max-width: 70%;
+                min-width: 50%;
+                color: #006ce4;
+                background-color: #fff;
+                border: 0;
+                border-radius: 4px;
+                display: inline-flex;
+                font-family: inherit;
+                justify-content: center;
+                position: relative;
+                padding: 5px;
+            }
+
+
+        }
+
+        .thirth_bhawarenessBanner {
+            box-sizing: border-box;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            width: 350px;
+            height: 240px;
+
+            .thirth_bhawarenessBanner_img {
+                margin-top: 16px;
+                width: 100%;
+            }
+        }
+    }
+
+
+}

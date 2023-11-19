@@ -1,0 +1,18 @@
+.header {
+    background-color: #003580;
+    color: white;
+
+    .nav_header {
+        margin: auto;
+        max-width: 1140px;
+    }
+
+    .btn-secondary {
+        --bs-btn-bg: none !important;
+        --bs-btn-hover-bg: #50b6ff42 !important;
+    }
+
+    .btn {
+        --bs-btn-font-size: 14px
+    }
+}

@@ -1,0 +1,21 @@
+.extension_wrapper {
+    padding: 0 32px 12px;
+
+    .btn {
+        border-radius: 100px !important;
+        padding: 6px 14px;
+    }
+
+    .btn-secondary {
+        --bs-btn-border-color: none !important;
+    }
+
+    .btn-secondary__isActive {
+        --bs-btn-border-color: #fff !important;
+    }
+
+    i {
+        font-size: 20px;
+        margin-inline-end: 8px;
+    }
+}

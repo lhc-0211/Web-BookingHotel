@@ -1,0 +1,119 @@
+.form_search {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-color: #003580;
+
+}
+
+.section_detailTour {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 15px 32px 12px;
+
+    .left_wrapper {
+        .map {
+            width: 100%;
+
+            iframe {
+                width: 100%;
+            }
+        }
+
+        .filters_sidebar {
+            margin-bottom: 8px;
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+            border-radius: 8px;
+            padding: 0;
+
+            .filters_sidebar_title {
+                padding: 8px;
+                border: 1px solid #e7e7e7;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                border-radius: 8px;
+
+            }
+
+            .used_filters {
+                padding: 12px 16px 8px 12px;
+
+                .used_filters_title {
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+
+    .right_wrapper {
+        padding-left: 20px;
+
+        .title_right {
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+
+        .btn_arrange {
+            background-color: white !important;
+            border-radius: 18px;
+            color: black;
+            border: 1px solid;
+        }
+
+        .card_hotel {
+            .card_hotel_children {
+                border: 1px solid;
+                border-color: #e7e7e7;
+                background-color: #fff;
+                border-radius: 8px;
+                margin: 16px 0;
+
+                .detail_card {
+                    padding: 18px;
+
+                    .avatar_hotel {
+                        flex: 0 0 auto;
+                        width: 200px;
+                    }
+
+                    .title_hotel {
+                        flex: 1 1 auto;
+                        margin-left: 16px;
+                        width: calc(100% - 330px);
+
+                        .name_hotel {
+                            padding-top: 8px;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            font-family: "" Avenir Next",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.check_type {
+    background-color: #fff;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    flex-shrink: 0;
+    height: calc(4px*5);
+    position: relative;
+    transition: 0.12s cubic-bezier(0.2, 0, 0.4, 0.8);
+    transition-property: background-color, border-color;
+    width: calc(4px*5);
+}

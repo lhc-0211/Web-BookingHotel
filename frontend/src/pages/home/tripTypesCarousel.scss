@@ -1,0 +1,23 @@
+.extension_position_wrapper {
+    padding: 5px 0px 20px;
+
+    .btn {
+        border-radius: 100px !important;
+        padding: 6px 14px;
+    }
+
+    .btn-secondary__isActive_position {
+        --bs-btn-border-color: black !important;
+    }
+
+    .icon_position {
+        font-size: 20px;
+        margin-inline-end: 8px;
+    }
+
+    .titel_position {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}

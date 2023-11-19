@@ -1,0 +1,167 @@
+.banner_search {
+    left: 50%;
+    max-width: 1080px;
+    position: absolute;
+    transform: translate(-50%, -54px);
+    width: calc(100% - 10px);
+    z-index: 5;
+
+    .form_search {
+
+        background-color: #febb02;
+        border-radius: 7px;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+        margin: 24px 0px 16px;
+        padding: 4px;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+    }
+
+    .form_children:first-child {
+        flex: 1 1 auto;
+        margin-left: 0;
+
+        .css-b62m3t-container {
+            position: relative;
+            box-sizing: border-box;
+            align-self: center;
+            padding: 8px;
+            width: 100%;
+
+            .css-13cymwt-control {
+                border-color: hsl(0, 0%, 100%);
+            }
+        }
+    }
+
+    .form_children:nth-child(2),
+    .form_children:nth-child(3) {
+        width: 27%;
+    }
+
+    .form_children {
+        background-color: #fff;
+        border-radius: 2px;
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 0 auto;
+        margin-left: 4px;
+
+        .form_wrapper {
+            align-self: center;
+            box-sizing: border-box;
+            padding: 8px;
+            width: 100%;
+
+            .form_date {
+                cursor: pointer;
+                outline: none;
+
+                .btn_date {
+                    border: none;
+                    font-weight: 500;
+                    width: auto;
+                    padding-right: 8px;
+                    appearance: none;
+                    background-color: #fff;
+                    /* border: 1px solid transparent; */
+                    border-radius: 2px;
+                    box-sizing: border-box;
+                    color: #262626;
+                    font-size: 14px;
+                    /* font-weight: 400; */
+                    line-height: 20px;
+                    overflow: hidden;
+                    padding: 8px 24px 8px 8px;
+                    position: relative;
+                    text-align: left;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+
+            .searchbox_dates_container {
+                color: #262626;
+                position: relative;
+
+                .calendar {
+                    width: 642px;
+                    border: none;
+                    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.24);
+                    left: calc(8px*-1);
+                    top: calc(100% + 16px);
+                    position: absolute;
+                    z-index: 200;
+                    background-color: #fff;
+
+                    .react-datepicker {
+                        background-color: #fff;
+                        padding: 0 16px;
+                    }
+                }
+            }
+
+            .form_count {
+                cursor: pointer;
+                outline: none;
+            }
+        }
+
+        .btn_custom {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            padding: 4px 24px;
+            text-align: center;
+            width: 100%;
+            border-radius: inherit;
+            height: 100%;
+        }
+
+
+        .icon_custom {
+            // padding: 8px 0px 8px 8px;
+            fill: #6b6b6b;
+            color: #6b6b6b;
+            height: 20px;
+            display: contents;
+            padding-top: 2px;
+
+            .icon__style {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+
+.css-1nmdiq5-menu {
+    color: black !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: none !important;
+}
+
+.css-hw8s2-MuiStack-root-MuiMultiInputDateRangeField-root>:not(style)~:not(style) {
+    margin-left: 0px !important;
+}
+
+.css-e47596-MuiDateRangeCalendar-root {
+    div:first-child {
+        color: rgba(255, 255, 255, 0) !important;
+    }
+}
+
+.MuiTypography-subtitle1 {
+    color: rgb(70, 70, 70);
+}
+
+.css-bkzwk2-MuiStack-root {
+    padding-top: 0px !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    display: none;
+}

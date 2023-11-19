@@ -1,0 +1,27 @@
+.container_registerCompany {
+    background-color: #003580;
+    background-image: url('https://q.bstatic.com/static/img/join/world-map-gray.png');
+
+    .wrapper_content {
+        width: 1140px;
+        margin: auto;
+        padding: 70px 0px 148px 28px;
+
+        .left_content {
+            padding-top: 95px !important;
+        }
+
+        .right_content {
+            background-color: white;
+            border-radius: 5px;
+            padding: 22px;
+        }
+    }
+
+    .btn-secondary {
+        --bs-btn-border-color: none !important;
+        --bs-btn-bg: none !important;
+
+    }
+
+}

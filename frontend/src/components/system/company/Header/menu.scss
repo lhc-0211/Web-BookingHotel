@@ -1,0 +1,56 @@
+.nav_wrapper {
+    padding: 5px 32px 8px;
+
+
+    .logo {
+        padding: 8px 16px 8px 0px;
+
+        .logo__titel {
+            font-size: 24px;
+            cursor: pointer;
+            font-weight: 600;
+            color: white;
+        }
+
+        .mr-auto {
+            border-left: 1px solid #ebf3ff;
+            margin-left: 16px;
+            padding-left: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .detail-acc {
+            margin-left: 8px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            background-color: #008009;
+            padding: 2px;
+            border-radius: 2px;
+        }
+
+
+    }
+
+    .menu {
+        padding-right: 5px;
+
+        .customer_service {
+            cursor: pointer;
+            font-size: 22px;
+        }
+
+
+    }
+
+    .btn-secondary {
+        --bs-btn-border-color: none !important;
+    }
+
+    .icon_laguage_deatail {
+        border-radius: 50%;
+        width: 28px;
+    }
+}

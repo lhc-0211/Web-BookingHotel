@@ -1,0 +1,70 @@
+.banner_wrapper {
+    width: 100%;
+    margin-bottom: 96px;
+    max-height: 434px;
+    background: #000;
+    position: relative;
+    width: 100%;
+
+
+    .banner {
+        .effect_img {
+            top: 0;
+            z-index: 2;
+            background: linear-gradient(90deg, #000 0, transparent 11.5%), linear-gradient(270deg, #000 0, transparent 11.5%);
+            height: 100%;
+            left: 0;
+            margin: 0 auto;
+            max-width: 1440px;
+            position: absolute;
+            right: 0;
+        }
+
+
+        .background_img {
+            object-fit: cover;
+            width: 100%;
+            z-index: 1;
+            height: 100%;
+            left: 0;
+            margin: 0 auto;
+            max-width: 1440px;
+            position: absolute;
+            right: 0;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+
+        .banner-children {
+            box-sizing: border-box;
+            margin: 0 auto;
+            max-width: 1080px;
+            min-height: 375px;
+            padding: var(48px) 5px calc(var(48px) + 30px);
+            position: relative;
+            z-index: 3;
+
+            .title_wrapper {
+
+                margin: auto 0;
+                max-width: 600px;
+
+                .title_banner {
+                    color: #fff;
+                    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 62px;
+                    display: block;
+                }
+
+                .discover {
+                    font-weight: 600;
+                    margin-top: 32px;
+                }
+            }
+
+        }
+    }
+}

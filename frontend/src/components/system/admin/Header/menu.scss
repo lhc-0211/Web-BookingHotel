@@ -1,0 +1,30 @@
+.nav_wrapper {
+    padding: 12px 32px 8px;
+
+
+    .logo {
+        padding: 8px 16px 8px 0px;
+
+        .logo__titel {
+            font-size: 24px;
+            cursor: pointer;
+            font-weight: 650;
+            color: white;
+        }
+    }
+
+    .menu {
+        padding-right: 5px;
+
+        .customer_service {
+            cursor: pointer;
+            font-size: 22px;
+        }
+
+
+    }
+
+    .btn-secondary {
+        --bs-btn-border-color: none !important;
+    }
+}

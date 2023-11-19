@@ -1,0 +1,36 @@
+.bui-spacer--largest {
+    .bui-spacer--medium {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .bui-card {
+        background-color: #fff;
+        border: 1px solid #e7e7e7;
+        border-radius: 2px;
+        color: #262626;
+        padding: 16px;
+
+        .bui-card__content {
+            padding: 5px 0px 12px 11px;
+
+            .bui-grid {
+                border-right: 1px solid #e6e6e6;
+
+                .bui-grip__icon {
+                    font-size: 22px;
+                }
+            }
+
+            .bui-grid-last {
+                border: none !important;
+            }
+
+
+        }
+    }
+}

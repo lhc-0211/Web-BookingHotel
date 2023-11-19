@@ -1,0 +1,30 @@
+.ext-header__navigation {
+    padding-left: 28px;
+
+    .ext-navigation__inner-container {
+        // padding: 0px 16px;
+        margin: 0 auto;
+        max-width: 1140px;
+        padding: 0;
+        position: relative;
+        width: 100%;
+
+        .ext-navigation-top-item__list {}
+    }
+}
+
+.custom-btn {
+    border: none !important;
+    border-radius: 0px !important;
+
+    &:hover {
+        border-bottom: 5px solid #bdbdbd !important;
+    }
+}
+
+
+
+.btn__isActive {
+    border-bottom: 5px solid #0071c2 !important;
+    background: hsla(0, 0%, 100%, .12) !important;
+}

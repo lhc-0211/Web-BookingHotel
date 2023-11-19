@@ -1,0 +1,9 @@
+.basic_layout {
+    margin-bottom: 400px;
+}
+
+.disabled-button {
+    opacity: 0.6 !important;
+    /* Các kiểu CSS khác cho trạng thái disabled */
+    cursor: not-allowed !important;
+}

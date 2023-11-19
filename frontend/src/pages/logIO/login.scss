@@ -1,0 +1,60 @@
+.login-container {
+    margin: auto;
+    width: 350px;
+
+    .title_login {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .lable_input {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .btn_submit {
+        background-color: #006ce4;
+    }
+
+    .title_logis {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .icon_login i {
+        font-size: 24px;
+        margin-top: 60px;
+    }
+
+    .detail_icon {
+        padding: 16px 23px;
+        border: 1px solid #e7e7e7;
+    }
+
+    .title_login_dicfical {
+        color: #006ce4;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+
+.login-container input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.detail_login {
+    border-top: 1px solid #e7e7e7;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}

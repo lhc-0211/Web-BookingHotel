@@ -1,0 +1,109 @@
+.promo_section {
+    margin-bottom: 40px;
+
+    .promo_slide {
+        .slick-list {
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+    }
+
+    .secondary_banner {
+        box-shadow: inset 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+        align-items: stretch;
+        border: none;
+        border-radius: 8px;
+        box-sizing: border-box;
+        flex-direction: row;
+        height: 100%;
+        justify-content: space-between;
+        max-height: 228px;
+        min-height: 186px;
+        position: relative;
+        background-color: #fff;
+        overflow: hidden;
+        margin-inline-end: 10px;
+
+        .title_secondary_banner {
+            padding: 16px;
+
+            .detail_title_secondary_banner {
+                flex-direction: column;
+                justify-content: center;
+                display: flex;
+                font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                color: #262626;
+                font-size: 16px;
+                line-height: 24px;
+
+                div:first-child {
+                    margin-bottom: 4px;
+                    font-weight: 700;
+
+                }
+
+                div:last-child {
+                    font-weight: 400;
+
+                }
+
+                .btn_secondary_banner {
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        .img_secondary_banner {
+            max-width: 33%;
+            min-width: 180px;
+            height: 180px;
+            border-radius: 0 2px 2px 0;
+
+            .custom_img_banner {
+                max-width: 100%;
+                height: 190px;
+            }
+        }
+    }
+
+    .secondary_banner_second {
+        background-image: url("../../assets/images/backgroundpromotionsecon.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+        min-height: 184px;
+        margin-inline-end: 4px;
+
+        .title_secondary_banner {
+            padding: 16px;
+
+            .detail_title_secondary_banner {
+                width: 55%;
+                flex-direction: column;
+                justify-content: center;
+                display: flex;
+                font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                color: #fff;
+                font-size: 16px;
+                line-height: 24px;
+
+                div:first-child {
+                    margin-bottom: 4px;
+                    font-weight: 700;
+
+                }
+
+                div:last-child {
+                    font-weight: 400;
+
+                }
+
+                .btn_secondary_banner {
+                    margin-top: 16px;
+                }
+            }
+        }
+
+    }
+}
